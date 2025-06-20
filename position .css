@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+    font-family: tahoma;
+    font-size: 20px;
+}
+.box,.main,.main img,.nav,.nav ul,.nav ul li,.content{
+    width: 100%;
+   
+}
+.box,.main,.main img,.nav ul,.nav ul li,.content,h1,p{
+   
+    float: left;
+}
+.nav ul li{
+    background-color: black;
+    text-align: center;
+    border-right: 1px solid white;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+.nav ul{
+    display: flex;
+}
+.content h1{
+    margin: 20px 20px ;
+    padding: 10px 20px;
+    color: red;
+    border-bottom: 5px solid red;
+    width: 50%;
+}
+.content p{
+    padding: 10px 20px ;
+    margin: 20px 20px;
+}
+.nav{
+    position: sticky;
+    top: -160px;
+}
+@media screen and (min-width:700px)
+ {
+    .nav{
+              top:-325px ;  
+    }
+    
+}
